@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziwax Global Resources Ltd.</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="image/logo.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+    <header class="about-header">
+        <div class="about-navbar">
+          <div class="about-logo">
+            <img src="image/logo.png" alt="Ziwax Global Logo">
+          </div>
+          <button class="about-toggle" onclick="toggleAboutMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <ul class="about-nav-links" id="about-nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="qualityA.html">Quality Assurance</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+    </header>
+
+
+    <section class="contact-wrapper">
+        <div class="contact-content">
+          <div class="contact-description">
+            <h2>Contact ZIWAX</h2>
+            <p>We’re here to answer your questions, discuss opportunities, and support your procurement needs.</p>
+            <ul class="contact-details">
+              <li><i class="fa-solid fa-phone"></i> +234 803 123 4567</li>
+              <li><i class="fa-solid fa-envelope"></i> info@ziwaxglobal.com</li>
+              <li><i class="fa-brands fa-yahoo"></i> ziwaxglobal2@yahoo.com</li>
+              <li><i class="fa-brands fa-google"></i> ziwaxglobalventures@gmail.com</li>
+              <li><i class="fa-solid fa-location-dot"></i> Port Harcourt, Nigeria</li>
+            </ul>
+          </div>
+      
+          <div class="contact-form-container">
+            <h2 class="form-title">Send Us a Message</h2>
+            <form class="contact-form" method="POST" action="https://formspree.io/f/xjkbwwrz">
+              <label for="name">Full Name:</label>
+              <input type="text" id="name" name="name" required>
+      
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+      
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+      
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      
+      <footer class="footer">
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="qualityA.html">Quality Assurance</a>
+        
+        </div>
+        <p class="footer-note">© 2025 Ziwax Global Resources Ltd. All rights reserved.</p>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="style.js"></script>
+</body>
+</html>    
