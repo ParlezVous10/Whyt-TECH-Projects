@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fanshawe Rotaract Club</title>
+  <link href="images/logo.jpg" rel="shortcut icon" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- LeafletJS CDN -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+        <a href="index.html">
+          <img src="images/logo2.png" alt="Fanshawe Rotaract Logo" />
+        </a>
+      </div>
+      
+    <nav class="nav-links" id="navLinks">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="joinus.html">Join Us</a></li>
+        <li><a href="past-project.html">Past Projects</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </header>
+
+
+
+  <section class="events-hero">
+    <video autoplay muted loop class="hero-video">
+      <source src="images/event-vid2.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Our Events: Building Connections, Empowering Change</h1>
+      <p>Discover the moments that shape our journey.</p>
+    </div>
+  </section>
+  
+
+
+  <section class="upcoming-events">
+    <h2>Upcoming Events</h2>
+    <div class="event-grid">
+  
+      <div class="event-card">
+        <img src="images/event-placeholder.jpg" alt="Event Image">
+        <div class="event-card-content">
+          <h3>Event Title Placeholder</h3>
+          <p>Date: [Insert Date]<br>Location: [Insert Location]</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+  
+      <div class="event-card">
+        <img src="images/event-placeholder.jpg" alt="Event Image">
+        <div class="event-card-content">
+          <h3>Event Title Placeholder</h3>
+          <p>Date: [Insert Date]<br>Location: [Insert Location]</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+  
+      <div class="event-card">
+        <img src="images/event-placeholder.jpg" alt="Event Image">
+        <div class="event-card-content">
+          <h3>Event Title Placeholder</h3>
+          <p>Date: [Insert Date]<br>Location: [Insert Location]</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+  
+      <div class="event-card">
+        <img src="images/event-placeholder.jpg" alt="Event Image">
+        <div class="event-card-content">
+          <h3>Event Title Placeholder</h3>
+          <p>Date: [Insert Date]<br>Location: [Insert Location]</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+  
+      <div class="event-card">
+        <img src="images/event-placeholder.jpg" alt="Event Image">
+        <div class="event-card-content">
+          <h3>Event Title Placeholder</h3>
+          <p>Date: [Insert Date]<br>Location: [Insert Location]</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+  
+      <div class="event-card">
+        <img src="images/event-placeholder.jpg" alt="Event Image">
+        <div class="event-card-content">
+          <h3>Event Title Placeholder</h3>
+          <p>Date: [Insert Date]<br>Location: [Insert Location]</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+
+  
+
+  <section class="testimonial-timeline">
+    <h2 class="section-testi">What Our Community Says</h2>
+  
+    <div class="timeline-container">
+  
+      <!-- Rotaract Member 1 -->
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>Sarah Johnson, Rotaract Member</h3>
+          <p>“Being part of Rotaract has changed my perspective on leadership and service. I’ve grown so much alongside amazing people.”</p>
+        </div>
+      </div>
+  
+      <!-- Rotaract Member 2 -->
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>Michael Adeyemi, Rotaract Member</h3>
+          <p>“Rotaract is more than just a club — it’s a family that’s committed to positive change.”</p>
+        </div>
+      </div>
+  
+      <!-- Rotarian 1 -->
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>John Smith, Rotary Club of London</h3>
+          <p>“Working with the Fanshawe Rotaract Club has been an inspiration. Their energy and commitment are unmatched.”</p>
+        </div>
+      </div>
+  
+      <!-- Rotarian 2 -->
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>Linda Nguyen, Rotary Club of Hyde Park</h3>
+          <p>“I am continually impressed by the impact these students make in our community.”</p>
+        </div>
+      </div>
+  
+      <!-- Seasons Retirement Home -->
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>Emily Clarke, Seasons Retirement Home Manager</h3>
+          <p>“The Christmas visit from Fanshawe Rotaract brought so much joy to our residents. We can’t wait to have them back.”</p>
+        </div>
+      </div>
+  
+      <!-- Thames River Cleanup -->
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>Robert Miller, London Resident</h3>
+          <p>“Seeing young people care so deeply about the environment was truly heartwarming. They made a real difference.”</p>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+  
+
+  <section class="countdown-section">
+    <h2 class="section-count">Countdown to Our Next Big Event</h2>
+    <div id="countdown">
+      <div class="time-block">
+        <span id="days">00</span>
+        <p>Days</p>
+      </div>
+      <div class="time-block">
+        <span id="hours">00</span>
+        <p>Hours</p>
+      </div>
+      <div class="time-block">
+        <span id="minutes">00</span>
+        <p>Minutes</p>
+      </div>
+      <div class="time-block">
+        <span id="seconds">00</span>
+        <p>Seconds</p>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <section class="map-section">
+    <h2 class="section-map">Our Event Locations</h2>
+    <div id="map"></div>
+  </section>
+  
+
+
+
+
+  <section class="partners-strip">
+    <h2 class="section-title-4">Our Partners & Supporters</h2>
+    <div class="partner-logos">
+      <img src="images/rotary-lodn.png" alt="Rotary Club of London" />
+      <img src="images/rotary-wheel.png" alt="Rotary Club of London" />
+      <img src="images/fanshawe-logo2.png" alt="Fanshawe College" />
+      <img src="images/FSU.png" alt="Fanshawe Student Union" />
+    </div>
+  </section>
+  
+
+
+
+
+
+
+
+  
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-column contact-info">
+        <h3>Contact Us</h3>
+        <p>Email: <a href="#">fanshawe.rotaract@gmail.com</a></p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Fanshawe College, London, ON</p>
+      </div>
+  
+       <div class="footer-column social-links">
+        <h3>Connect With Us</h3>
+        <div class="icons">
+            <a href="https://www.instagram.com/joinfanshawerotaract?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@fanshawerotaractclub_?is_from_webapp=1&sender_device=pc" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.linkedin.com/in/fanshawe-rotaract-club-9b1244310/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          
+      </div>
+  
+      <div class="footer-column">
+        <h3>Rotaract Spirit</h3>
+        <p><em>“Service Above Self”</em></p>
+        <div class="footer-logos">
+          <img src="images/fanshawe-logo2.png" alt="Fanshawe Logo" class="footer-logo" />
+          <img src="images/rotary-wheel.png" alt="Rotaract Logo" class="footer-logo" />
+        </div>
+      </div>
+      
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2025 Fanshawe Rotaract Club. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
