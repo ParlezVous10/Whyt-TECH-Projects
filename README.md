@@ -1,2 +1,2 @@
-I'm a Front-End Developer passionate about creating clean, responsive, and user-friendly web experiences.
-I'm always building, learning, and improving—feel free to check out my work and connect!
+I’m a Front-End Developer and Computer Programming & Analysis student passionate about building clean, responsive, and user-friendly web experiences.
+I enjoy turning ideas into interactive applications that combine functionality with beautiful design.
